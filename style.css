@@ -1,0 +1,162 @@
+body {
+  background-color:aqua;
+}
+p.h1 {
+  padding: 30px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: darkturquoise;
+  font-size: 50px;
+  font-family: Impact, 'Haettenschweiler', sans-serif;
+  background-color: yellow;
+  color: darkturquoise;
+  text-align: center;
+}
+.h1:hover {
+  background-color: red;
+  color: yellow;
+  transition: 2s;
+}
+p.h2 {
+  padding: 10px;
+  color: white;
+  text-align: left;
+  border-style: solid;
+  border-width: 5px;
+  font-family: Impact, 'Haettenschweiler', sans-serif;
+  font-size: 30px;
+  background-color: black;
+  max-width: 400px;
+  text-align: center;
+}
+.h2:hover {
+  color: black;
+  background-color: white;
+  border-style: dashed;
+  border-color: black;
+  transition: 3s;
+}
+.main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.main:hover {
+  width: 1000px;
+  transition: 3s;
+}
+.subimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.subimg:hover {
+  width: 700px;
+  transition: 2s;
+}
+ 
+p.info {
+  text-align: center ;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-color: black;
+  background-color: steelblue;
+  color: white;
+}
+.game1 {
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: left ;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 3px;
+  background-color: darkblue;
+  color: white;
+}
+.game2 {
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: left ;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-color: red;
+  border-width: 3px;
+  background-color: orange;
+  color: white;
+}
+.lineup1 {
+  background-color: lightblue;
+  display: flex;
+  align-items:center;
+}
+.sub2img{
+  max-width: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.sub2img:hover {
+  max-width: 400px;
+  transition: 2s;
+}
+.game3 {
+  max-height: 200px;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: left;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-color: pink;
+  border-width: 3px;
+  background-color: darkred;
+  color: white;
+  overflow: auto;
+}
+.lineup2 {
+  background-color: green;
+  display: flex;
+  align-items:center;
+}
+.game4 {
+  max-height: 200px;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: left;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-color: skyblue;
+  border-width: 3px;
+  background-color: palevioletred;
+  color: white;
+  overflow: auto;
+}
+.meinfo {
+  margin: 80px;
+  text-align: left ;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-color: green;
+  border-width: 5px;
+  background-color: mediumblue;
+  color: white;
+}
+.meinfo:hover{
+  border-color: sienna;
+  background-color: limegreen;
+  border-style: groove;
+  transition: 3s;
+}
