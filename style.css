@@ -9,7 +9,7 @@ p.h1 {
   font-family: Impact, 'Haettenschweiler', sans-serif;
   background-color: yellow;
   color: darkturquoise;
-  text-align: center;
+  text-align: center; 
 }
 .h1:hover {
   background-color: red;
