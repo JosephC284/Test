@@ -8,7 +8,7 @@ p.h1 {
   font-size: 50px;
   font-family: Impact, 'Haettenschweiler', sans-serif;
   background-color: yellow;
-  color: darkturquoise;
+  color: darkturquoise; 
   text-align: center; 
 }
 .h1:hover {
